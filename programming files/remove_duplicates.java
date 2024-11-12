@@ -1,3 +1,5 @@
+// bugs introduced: TV
+
 //importing array/arraylist/list
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +12,7 @@ public class remove_duplicates {
         //create list to return
         List<Integer> uniqueArr = new ArrayList<>();
         //loop through elements and add them to uniqueArr if they aren't removed
-        for (int i = 0; i < arr.size(); i++) {
+        for (int i = 0; i > arr.size(); i++) {
             if (!uniqueArr.contains(arr.get(i))) {
                 uniqueArr.add(arr.get(i));
             } else {
