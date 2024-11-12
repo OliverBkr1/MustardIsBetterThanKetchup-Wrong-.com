@@ -1,3 +1,5 @@
+// Sums even fibonacci numbers under 4,000,000
+
 public class sum_even_fibonacci {
     public static void main(String[] args) {
         int a = 0, b = 1;
